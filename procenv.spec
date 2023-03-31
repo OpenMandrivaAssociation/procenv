@@ -1,6 +1,6 @@
 Name:           procenv
 Version:        0.51
-Release:        1
+Release:        2
 Summary:        Utility to show process environment
 License:        GPLv3+
 URL:            https://github.com/jamesodhunt/procenv
