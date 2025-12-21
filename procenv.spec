@@ -5,6 +5,11 @@ Summary:        Utility to show process environment
 License:        GPLv3+
 URL:            https://github.com/jamesodhunt/procenv
 Source0:        https://github.com/jamesodhunt/procenv/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libselinux)
 BuildRequires:	pkgconfig(check)
 BuildRequires:	pkgconfig(libcap)
